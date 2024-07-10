@@ -1,0 +1,24 @@
+public class remove_duplicate {
+	void removeduplicate(String str) {
+         String s2=" ";
+		 for(int i=0;i<str.length();i++) {
+			if(!s2.contains(String.valueOf(str.charAt(i)))) {
+				s2=s2+s2.valueOf(str.charAt(i));
+			}
+			 }
+		 System.out.println(s2);
+	}
+	
+	public static void main(String[] args) {
+	 String str="applple";
+	 sum_of_two_nums obj=new sum_of_two_nums();
+	 obj.removeduplicate(str);
+	
+	 
+	}
+}
+
+
+
+
+

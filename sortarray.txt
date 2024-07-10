@@ -1,0 +1,25 @@
+     package basics;
+
+public class sum_of_two_nums {
+	
+	public static void main(String[] args) {
+	 int arr[]=new int[] {12,34,567,89,23,23,23,67,45,78};
+	 for(int i=0;i<10-1;i++) {
+		 for(int j=i+1;j<10;j++) {
+			 if(arr[i]<arr[j]) {
+				 int t=arr[i];
+				 arr[i]=arr[j];
+				 arr[j]=t;
+			 }
+		 }
+	 }
+	 for(int i=0;i<10;i++) {
+		 System.out.println(arr[i]);
+	 }
+	}
+}
+
+
+
+
+

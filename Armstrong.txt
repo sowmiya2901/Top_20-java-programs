@@ -1,0 +1,32 @@
+public class Armstrong_num {
+	
+	public static void main(String[] args) {
+	int n=23;
+	int m=n;
+	int o=n;
+	int res=0;
+	int digits=0;
+	while(n!=0) {
+		n=n/10;
+		digits++;
+	}
+	
+	for(int i=0;i<digits;i++) {
+		int rem=m%10;
+		int b=(int) Math.pow(rem, digits);
+		res=res+b;
+		m=m/10;
+	}
+	if(res==o) {
+		System.out.println("Armstrong number");
+	}else{
+		System.out.println("Not a armstrong number");
+		
+	}
+	}
+}
+
+
+
+
+

@@ -1,0 +1,24 @@
+public class reverse_each_word{
+	
+	public static void main(String[] args) {
+		  String str="who are you";
+		  String arr[]=str.split(" ");
+		  StringBuilder rev=new StringBuilder();
+		  for(String a:arr) {
+			  StringBuilder sb=new StringBuilder(a);
+			  sb.reverse();
+			  rev.append(sb).append(" ");
+			  rev.toString().trim();		
+			  }
+		  
+		  System.out.println(rev);
+		
+	}
+
+}
+
+
+
+
+
+

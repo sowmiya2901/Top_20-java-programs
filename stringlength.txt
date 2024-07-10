@@ -1,0 +1,18 @@
+public class count_char_string {
+	
+	public static void main(String[] args) {
+		int c=0;
+	    String str="sowmiya";
+	    for(char c1:str.toCharArray()) {
+	    	c ++;
+	    }
+	    System.out.println(c);
+	}	   
+
+}
+
+
+
+
+
+
